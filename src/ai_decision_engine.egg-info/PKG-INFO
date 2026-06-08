@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ai-decision-engine
+Version: 0.1.0
+Requires-Python: >=3.12
+Requires-Dist: langgraph>=0.2.0
+Requires-Dist: langchain-anthropic>=0.3.0
+Requires-Dist: langchain-core>=0.3.0
+Requires-Dist: anthropic>=0.40.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
