@@ -1,6 +1,6 @@
 [project]
 name = "ai-decision-engine"
-version = "0.1.0"
+version = "0.2.0"
 requires-python = ">=3.12"
 dependencies = [
     "langgraph>=0.2.0",
@@ -10,12 +10,21 @@ dependencies = [
     "pydantic>=2.0.0",
     "pyyaml>=6.0",
     "python-dotenv>=1.0.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.27.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0.0",
     "pytest-asyncio>=0.23.0",
+    "httpx>=0.24.0",
+]
+stt = [
+    "openai>=1.0.0",
+]
+all = [
+    "openai>=1.0.0",
 ]
 
 [build-system]

@@ -1,0 +1,35 @@
+domain: travelplanner
+display_name: Travel Planner
+
+intents:
+  - plan_trip
+  - find_flights
+  - find_hotels
+  - find_activities
+  - find_destinations
+
+entities:
+  - destination
+  - origin
+  - budget_usd
+  - travelers
+  - duration_days
+  - travel_style
+
+ranking:
+  weights:
+    value_score: 0.40
+    rating: 0.35
+    weather_score: 0.25
+  higher_is_better:
+    value_score: true
+    rating: true
+    weather_score: true
+
+fetch:
+  sources:
+    - destinations_fixture
+
+response:
+  max_results: 5
+  format: natural_language
