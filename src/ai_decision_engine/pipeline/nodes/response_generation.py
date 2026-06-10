@@ -1,7 +1,8 @@
-import anthropic
+from langchain_anthropic import ChatAnthropic
+from langchain_core.messages import HumanMessage
 from ai_decision_engine.state import DecisionState
 
-_client = anthropic.Anthropic()
+_llm = ChatAnthropic(model="claude-opus-4-8", max_tokens=512)
 
 
 def response_generation_node(state: DecisionState) -> dict:
@@ -26,12 +27,5 @@ def response_generation_node(state: DecisionState) -> dict:
         "Be specific about the best deal and why it stands out."
     )
 
-    response = _client.messages.create(
-        model="claude-opus-4-8",
-        max_tokens=512,
-        thinking={"type": "adaptive"},
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    text = next(b.text for b in response.content if b.type == "text")
-    return {"final_response": text}
+    response = _llm.invoke([HumanMessage(content=prompt)])
+    return {"final_response": response.content}
