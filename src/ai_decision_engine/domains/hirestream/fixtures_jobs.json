@@ -1,0 +1,80 @@
+[
+  {
+    "id": "j1",
+    "type": "job",
+    "title": "Senior Python Developer",
+    "company": "StartupXYZ",
+    "required_skills": ["python", "postgresql", "docker"],
+    "preferred_skills": ["fastapi", "redis"],
+    "min_experience_years": 4,
+    "location": "san francisco",
+    "salary_range": "$140k-$170k",
+    "employment_type": "full-time",
+    "summary": "Build backend systems for a fast-growing B2B SaaS product"
+  },
+  {
+    "id": "j2",
+    "type": "job",
+    "title": "ML Engineer",
+    "company": "DeepTech",
+    "required_skills": ["python", "pytorch", "mlflow"],
+    "preferred_skills": ["kubernetes", "tensorflow"],
+    "min_experience_years": 3,
+    "location": "san francisco",
+    "salary_range": "$150k-$185k",
+    "employment_type": "full-time",
+    "summary": "Train and deploy production ML models serving millions of users"
+  },
+  {
+    "id": "j3",
+    "type": "job",
+    "title": "Data Engineer",
+    "company": "Analytics Corp",
+    "required_skills": ["python", "spark", "sql"],
+    "preferred_skills": ["dbt", "airflow", "aws"],
+    "min_experience_years": 5,
+    "location": "new york",
+    "salary_range": "$130k-$160k",
+    "employment_type": "full-time",
+    "summary": "Architect and maintain petabyte-scale data lake pipelines"
+  },
+  {
+    "id": "j4",
+    "type": "job",
+    "title": "Frontend React Developer",
+    "company": "ProductCo",
+    "required_skills": ["typescript", "react", "css"],
+    "preferred_skills": ["nextjs", "graphql"],
+    "min_experience_years": 2,
+    "location": "remote",
+    "salary_range": "$110k-$140k",
+    "employment_type": "full-time",
+    "summary": "Own the consumer-facing web app and design system"
+  },
+  {
+    "id": "j5",
+    "type": "job",
+    "title": "DevOps / Platform Engineer",
+    "company": "ScaleOps",
+    "required_skills": ["kubernetes", "terraform", "aws"],
+    "preferred_skills": ["ci-cd", "python"],
+    "min_experience_years": 5,
+    "location": "seattle",
+    "salary_range": "$145k-$175k",
+    "employment_type": "full-time",
+    "summary": "Build the internal developer platform used by 100+ engineers"
+  },
+  {
+    "id": "j6",
+    "type": "job",
+    "title": "Go Backend Engineer",
+    "company": "HighFreq",
+    "required_skills": ["golang", "grpc", "postgresql"],
+    "preferred_skills": ["redis", "kubernetes"],
+    "min_experience_years": 3,
+    "location": "austin",
+    "salary_range": "$135k-$165k",
+    "employment_type": "full-time",
+    "summary": "Build low-latency trading infrastructure in Go"
+  }
+]

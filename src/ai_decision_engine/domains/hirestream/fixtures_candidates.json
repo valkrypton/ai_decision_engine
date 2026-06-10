@@ -1,0 +1,98 @@
+[
+  {
+    "id": "c1",
+    "type": "candidate",
+    "name": "Alice Chen",
+    "role": "software engineer",
+    "skills": ["python", "javascript", "react", "postgresql", "docker"],
+    "experience_years": 5,
+    "location": "san francisco",
+    "current_company": "TechCorp",
+    "availability": "immediate",
+    "summary": "Full-stack engineer with 5 years building scalable web apps"
+  },
+  {
+    "id": "c2",
+    "type": "candidate",
+    "name": "Marcus Williams",
+    "role": "data engineer",
+    "skills": ["python", "spark", "sql", "airflow", "dbt", "aws"],
+    "experience_years": 7,
+    "location": "new york",
+    "current_company": "DataFlow Inc",
+    "availability": "2 weeks notice",
+    "summary": "Senior data engineer specialising in large-scale ETL pipelines"
+  },
+  {
+    "id": "c3",
+    "type": "candidate",
+    "name": "Priya Sharma",
+    "role": "machine learning engineer",
+    "skills": ["python", "pytorch", "tensorflow", "mlflow", "kubernetes"],
+    "experience_years": 4,
+    "location": "san francisco",
+    "current_company": "AI Labs",
+    "availability": "1 month notice",
+    "summary": "ML engineer focused on productionising deep learning models"
+  },
+  {
+    "id": "c4",
+    "type": "candidate",
+    "name": "James O'Brien",
+    "role": "backend engineer",
+    "skills": ["golang", "grpc", "postgresql", "redis", "kubernetes"],
+    "experience_years": 6,
+    "location": "austin",
+    "current_company": "CloudBase",
+    "availability": "immediate",
+    "summary": "Backend specialist building high-throughput microservices"
+  },
+  {
+    "id": "c5",
+    "type": "candidate",
+    "name": "Sofia Ramirez",
+    "role": "frontend engineer",
+    "skills": ["typescript", "react", "nextjs", "graphql", "css"],
+    "experience_years": 3,
+    "location": "remote",
+    "current_company": "UX Studio",
+    "availability": "immediate",
+    "summary": "Frontend engineer focused on accessible, performant UIs"
+  },
+  {
+    "id": "c6",
+    "type": "candidate",
+    "name": "David Kim",
+    "role": "devops engineer",
+    "skills": ["terraform", "kubernetes", "aws", "ci-cd", "python"],
+    "experience_years": 8,
+    "location": "seattle",
+    "current_company": "Infra Co",
+    "availability": "1 month notice",
+    "summary": "DevOps architect with deep AWS and IaC expertise"
+  },
+  {
+    "id": "c7",
+    "type": "candidate",
+    "name": "Lena Fischer",
+    "role": "software engineer",
+    "skills": ["java", "spring-boot", "microservices", "kafka", "postgresql"],
+    "experience_years": 5,
+    "location": "new york",
+    "current_company": "FinServ Tech",
+    "availability": "2 weeks notice",
+    "summary": "Java engineer experienced in financial services platforms"
+  },
+  {
+    "id": "c8",
+    "type": "candidate",
+    "name": "Omar Hassan",
+    "role": "machine learning engineer",
+    "skills": ["python", "scikit-learn", "pytorch", "sql", "fastapi"],
+    "experience_years": 2,
+    "location": "san francisco",
+    "current_company": "StartupAI",
+    "availability": "immediate",
+    "summary": "Junior ML engineer with strong academic background in NLP"
+  }
+]

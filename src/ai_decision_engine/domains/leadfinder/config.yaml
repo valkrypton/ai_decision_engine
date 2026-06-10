@@ -1,0 +1,32 @@
+domain: leadfinder
+display_name: Lead Finder
+
+intents:
+  - find_leads
+  - score_company
+  - find_companies
+
+entities:
+  - industry
+  - company_size
+  - location
+  - technology
+  - funding_stage
+
+ranking:
+  weights:
+    icp_score: 0.50
+    engagement_score: 0.30
+    intent_signal: 0.20
+  higher_is_better:
+    icp_score: true
+    engagement_score: true
+    intent_signal: true
+
+fetch:
+  sources:
+    - companies_fixture
+
+response:
+  max_results: 5
+  format: natural_language

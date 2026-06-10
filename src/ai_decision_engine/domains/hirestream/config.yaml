@@ -1,0 +1,33 @@
+domain: hirestream
+display_name: HireStream
+
+intents:
+  - find_candidates
+  - find_jobs
+  - match_candidate_to_role
+
+entities:
+  - role
+  - skills
+  - experience_years
+  - location
+  - company
+
+ranking:
+  weights:
+    skill_match: 0.45
+    experience_fit: 0.35
+    location_match: 0.20
+  higher_is_better:
+    skill_match: true
+    experience_fit: true
+    location_match: true
+
+fetch:
+  sources:
+    - candidates_fixture
+    - jobs_fixture
+
+response:
+  max_results: 5
+  format: natural_language
