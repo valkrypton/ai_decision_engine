@@ -1,0 +1,32 @@
+domain: carddeals
+display_name: CardDeals
+
+intents:
+  - find_deal
+  - find_restaurant
+  - find_deal_near_location
+
+entities:
+  - location
+  - cuisine
+  - budget
+  - card_type
+  - distance_km
+
+ranking:
+  weights:
+    discount_value: 0.40
+    rating: 0.35
+    distance_km: 0.25
+  higher_is_better:
+    discount_value: true
+    rating: true
+    distance_km: false
+
+fetch:
+  sources:
+    - restaurants_fixture
+
+response:
+  max_results: 5
+  format: natural_language

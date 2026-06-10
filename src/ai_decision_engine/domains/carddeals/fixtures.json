@@ -1,0 +1,86 @@
+[
+  {
+    "id": "r1",
+    "name": "Sakura Sushi",
+    "cuisine": "japanese",
+    "location": "downtown",
+    "rating": 4.7,
+    "distance_km": 1.2,
+    "deals": [
+      {"card_type": "visa", "discount_pct": 20, "description": "20% off total bill"},
+      {"card_type": "mastercard", "discount_pct": 15, "description": "15% off on weekdays"}
+    ]
+  },
+  {
+    "id": "r2",
+    "name": "Casa Mexicana",
+    "cuisine": "mexican",
+    "location": "downtown",
+    "rating": 4.3,
+    "distance_km": 0.8,
+    "deals": [
+      {"card_type": "amex", "discount_pct": 25, "description": "25% off for AMEX holders"},
+      {"card_type": "visa", "discount_pct": 10, "description": "10% off lunch"}
+    ]
+  },
+  {
+    "id": "r3",
+    "name": "The Burger Joint",
+    "cuisine": "american",
+    "location": "midtown",
+    "rating": 4.1,
+    "distance_km": 2.5,
+    "deals": [
+      {"card_type": "mastercard", "discount_pct": 30, "description": "Buy 1 get 1 free with Mastercard"},
+      {"card_type": "visa", "discount_pct": 15, "description": "15% off on weekends"}
+    ]
+  },
+  {
+    "id": "r4",
+    "name": "Pasta Prima",
+    "cuisine": "italian",
+    "location": "downtown",
+    "rating": 4.5,
+    "distance_km": 1.5,
+    "deals": [
+      {"card_type": "visa", "discount_pct": 18, "description": "18% off dinner"},
+      {"card_type": "amex", "discount_pct": 12, "description": "12% off all day"}
+    ]
+  },
+  {
+    "id": "r5",
+    "name": "Dragon Palace",
+    "cuisine": "chinese",
+    "location": "chinatown",
+    "rating": 4.6,
+    "distance_km": 3.0,
+    "deals": [
+      {"card_type": "mastercard", "discount_pct": 22, "description": "22% off set menus"},
+      {"card_type": "visa", "discount_pct": 10, "description": "10% off takeaway"}
+    ]
+  },
+  {
+    "id": "r6",
+    "name": "Green Garden",
+    "cuisine": "vegetarian",
+    "location": "uptown",
+    "rating": 4.4,
+    "distance_km": 4.2,
+    "deals": [
+      {"card_type": "amex", "discount_pct": 20, "description": "20% off for AMEX"},
+      {"card_type": "visa", "discount_pct": 15, "description": "15% off weekdays"}
+    ]
+  },
+  {
+    "id": "r7",
+    "name": "Spice Route",
+    "cuisine": "indian",
+    "location": "downtown",
+    "rating": 4.8,
+    "distance_km": 1.0,
+    "deals": [
+      {"card_type": "mastercard", "discount_pct": 25, "description": "25% off entire bill"},
+      {"card_type": "visa", "discount_pct": 20, "description": "20% off dine-in"}
+    ]
+  }
+]
